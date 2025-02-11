@@ -14,12 +14,17 @@
             "email": "yasserfarag575@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^9.0|^10.0"
+    },
     "extra": {
         "laravel": {
             "providers": [
                 "Tarkiba\\AutoTranslate\\AutoTranslateServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
