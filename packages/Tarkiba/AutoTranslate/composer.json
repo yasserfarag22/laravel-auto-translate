@@ -1,0 +1,25 @@
+{
+    "name": "tarkiba/auto-translate",
+    "description": "Automatic Translation for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tarkiba\\AutoTranslate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yasser Farag",
+            "email": "yasserfarag575@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tarkiba\\AutoTranslate\\AutoTranslateServiceProvider"
+            ]
+        }
+    }
+}
